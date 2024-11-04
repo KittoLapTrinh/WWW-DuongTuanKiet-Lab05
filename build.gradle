@@ -34,6 +34,8 @@ dependencies {
 
     implementation 'com.neovisionaries:nv-i18n:1.29'
 
+    implementation 'net.datafaker:datafaker:2.0.2'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
