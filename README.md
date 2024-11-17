@@ -8,4 +8,15 @@
 ### Database-diagram
 ![database-diagram](https://github.com/user-attachments/assets/6d7dfb0d-4247-4d2b-8d92-a86e610abd5a)
 
+### Chức năng của hệ thống
+```
+CRUD
+Home Page
+Quản lý công ty
+Quản lý ứng viên
+Quản lý kỹ năng
+Quản lý công việc ứng tuyển
+```
+
+
 
