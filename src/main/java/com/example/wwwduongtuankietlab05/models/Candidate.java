@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class Candidate {
-    @Column(columnDefinition = "varchar(15)", nullable = false, unique = true)
+    @Column(columnDefinition = "varchar(20)", nullable = false, unique = true)
     private String phone;
     @Id
     @Column(name = "can_id", nullable = false)

@@ -26,7 +26,7 @@ public class Address {
     private String street;
     @OneToOne(mappedBy = "address",fetch = FetchType.EAGER)
     private Candidate candidate;
-    @Column(columnDefinition = "varchar(20)")
+    @Column(columnDefinition = "varchar(30)")
     private String number;
     @OneToOne(mappedBy = "address",fetch = FetchType.EAGER)
     private Company company;
