@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}"
+          rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <title>List Company</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="title">List Company</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>About</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="company : ${companies}">
+                    <td th:text="${company.id}"></td>
+                    <td th:text="${company.name}"></td>
+                    <td th:text="${company.about}"></td>
+                    <td th:text="${company.address}"></td>
+                    <td th:text="${company.phone}"></td>
+                    <td><a th:href="${company.webURL}" th:text="${company.webURL}"></a></td>
+                    <td th:text="${company.email}"></td>
+                    <td>
+                        <a th:href="@{/companies/edit/{id}(id=${company.id})}" class="btn btn-primary btn-sm">Edit</a>
+                        <a th:href="@{/companies/delete/{id}(id=${company.id})}" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+    <script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.bundle.min.js}"
+            integrity="sha384-lVSM3L+0X7nHEfNwvMglpMAsXQdlV92LNcNvBYY2nZXNvbIlv+8lSRN8FwqJ7TX1"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>
