@@ -1,5 +1,6 @@
 package com.example.wwwduongtuankietlab05.enums;
 
+import lombok.Data;
 import lombok.Getter;
 
 @Getter

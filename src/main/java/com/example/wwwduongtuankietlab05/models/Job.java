@@ -1,6 +1,5 @@
 package com.example.wwwduongtuankietlab05.models;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -13,6 +12,14 @@ import java.util.List;
 @Getter
 @Setter
 @Builder
+@NamedQueries(
+        {
+                @NamedQuery(
+                        name = "Job.getCompanyNameByJob",
+                        query = "select distinct c.name from Job j inner join Company c on c.id = j.company.id where j.id =: id"
+                )
+        }
+)
 public class Job implements Serializable {
     @Id
     @Column(name = "job_id")

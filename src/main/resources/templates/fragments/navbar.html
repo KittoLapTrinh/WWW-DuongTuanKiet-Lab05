@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    </style>
+</head>
+<body>
+<nav th:fragment="navbar" class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+        <h1 class="m-0 text-primary">TopCV</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a th:href="@{/home}" class="nav-item nav-link">Home</a>
+            <a th:href="@{/companies}" class="nav-item nav-link">Company</a>
+            <a th:href="@{/candidates}" class="nav-item nav-link">Candidate</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Skill</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    <a th:href="@{/skills}" class="dropdown-item">Manager Skill</a>
+                    <a th:href="@{/insert-skill}" class="dropdown-item">Insert Skill</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jobs</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    <a th:href="@{/jobs}" class="dropdown-item">Job List</a>
+                    <a th:href="@{/manager-job}" class="dropdown-item">Manager Job</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <a th:href="@{/job-insert}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Post A Job<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+</body>
+</html>

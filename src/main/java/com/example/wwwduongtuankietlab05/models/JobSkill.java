@@ -12,6 +12,12 @@ import lombok.*;
 @Data
 @IdClass(JobSkillID.class)
 @Builder
+@NamedQueries({
+        @NamedQuery(
+                name = "JobSkill.getSkillForJob",
+                query = "select distinct jk from JobSkill jk where jk.job.id =: id"
+        )
+})
 public class JobSkill {
     @Column(name = "skill_level", nullable = false)
     private SkillLevel skillLevel;

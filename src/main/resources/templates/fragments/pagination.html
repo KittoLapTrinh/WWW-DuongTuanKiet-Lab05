@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav th:fragment="pagination(contentPage,control,pageNumbers)" aria-label="Page navigation example">
+    <ul class="pagination justify-content-center" th:if="${contentPage.totalPages > 0}">
+        <li th:class="${contentPage.number == 0} ? 'page-item disabled' : 'page-item'">
+            <a class="page-link" th:href="@{'/'+${control}(size=${contentPage.size}, page=1)}">First</a>
+        </li>
+        <li th:each="pageNumber : ${pageNumbers}"
+            th:class="${pageNumber == contentPage.number + 1} ? 'page-item active' : 'page-item'">
+            <a class="page-link" th:href="@{'/'+${control}(size=${contentPage.size}, page=${pageNumber})}" th:text="${pageNumber}"></a>
+        </li>
+        <li th:class="${contentPage.number == contentPage.totalPages - 1} ? 'page-item disabled' : 'page-item'">
+            <a class="page-link" th:href="@{'/'+${control}(size=${contentPage.size}, page=${contentPage.totalPages})}">Last</a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

@@ -11,6 +11,12 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Data
 @Builder
+@NamedQueries({
+        @NamedQuery(
+                name = "Experience.getExperiencesByCandidate",
+                query = "select e from Experience e where e.candidate.id =: id"
+        )
+})
 public class Experience {
     @Id
     @Column(name = "exp_id")

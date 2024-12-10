@@ -1,5 +1,6 @@
 package com.example.wwwduongtuankietlab05.models;
 
+
 import com.example.wwwduongtuankietlab05.enums.SkillType;
 import jakarta.persistence.*;
 import lombok.*;

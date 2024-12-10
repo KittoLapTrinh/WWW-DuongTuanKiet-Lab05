@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:fragment="carousel" class="container-fluid p-0">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" th:src="@{/img/carousel-1.jpg}" alt="">
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" th:src="@{img/carousel-2.jpg}" alt="">
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" th:src="@{img/carousel-3.jpg}" alt="">
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" th:src="@{img/carousel-4.jpg}" alt="">
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -4,8 +4,6 @@ import com.neovisionaries.i18n.CountryCode;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.List;
-
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
