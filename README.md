@@ -21,13 +21,18 @@ Quản lý công việc ứng tuyển
 ![image](https://github.com/user-attachments/assets/f387e581-e6c0-4da3-ab9f-0a7c0d0947ca)
 ![image](https://github.com/user-attachments/assets/240cc4a2-3d04-4d2c-9991-18541660e850)
 ![image](https://github.com/user-attachments/assets/9c88441b-992f-436e-a5ac-792028aa41ff)
+
 ### Quản lý các Company
 ![image](https://github.com/user-attachments/assets/f48cee78-a816-4a6f-8c8b-71d3a955790d)
+
 ### Quản lý các Candidate
 ![image](https://github.com/user-attachments/assets/19b8bee6-06eb-4192-ace4-689b5d3033d1)
+![image](https://github.com/user-attachments/assets/813c3498-60b3-4bf9-a7f5-c985f5ea8add)
+
 ### Quản lý Skill
 ![image](https://github.com/user-attachments/assets/3f68b1dd-633c-446b-a331-0bc7c998880b)
 ![image](https://github.com/user-attachments/assets/5df56dfd-d976-4118-88cb-1d834895a5bb)
+
 ### Quản lý các Công Việc đang ứng tuyển
 ![image](https://github.com/user-attachments/assets/4faad07e-5ca3-4b30-a6ac-4439f09367b7)
 ![image](https://github.com/user-attachments/assets/8b568ba4-2ef8-43a9-b0c3-4d0b0e03ca17)
