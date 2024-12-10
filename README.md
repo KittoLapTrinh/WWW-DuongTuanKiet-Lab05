@@ -1,4 +1,4 @@
-# WWW-DuongTuanKiet-Lab5
+![image](https://github.com/user-attachments/assets/2a577dcb-ddbc-466c-a5b6-ea4505bf3f23)# WWW-DuongTuanKiet-Lab5
 # Công nghệ và công cụ sử dụng
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 
@@ -30,6 +30,9 @@ Quản lý công việc ứng tuyển
 ![image](https://github.com/user-attachments/assets/5df56dfd-d976-4118-88cb-1d834895a5bb)
 ### Quản lý các Công Việc đang ứng tuyển
 ![image](https://github.com/user-attachments/assets/4faad07e-5ca3-4b30-a6ac-4439f09367b7)
+![image](https://github.com/user-attachments/assets/8b568ba4-2ef8-43a9-b0c3-4d0b0e03ca17)
+![image](https://github.com/user-attachments/assets/8fe8050a-e6c0-4624-8459-1f517766e1ef)
+
 
 
 
