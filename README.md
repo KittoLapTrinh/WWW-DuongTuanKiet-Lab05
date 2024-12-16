@@ -16,7 +16,7 @@ Phần mềm quản lý tuyển dụng giúp người dùng và ứng viên dễ
 ### Database-diagram
 ![database-diagram2](https://github.com/user-attachments/assets/106ef5cd-53cc-47d8-8a6e-70b51cb657ef)
 
-### Sử dụng thư viện Data Faker để phát sinh dữ liệu
+### Sử dụng Data Faker để phát sinh dữ liệu ảo
 ```
 Faker faker = new Faker();
 ```
