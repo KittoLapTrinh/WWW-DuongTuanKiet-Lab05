@@ -1,4 +1,4 @@
-# WWW-DuongTuanKiet-Lab5
+# WWW-DuongTuanKiet-Lab05
 
 # Sinh viên thực hiện
 * Họ và tên: Dương Tuấn Kiệt
@@ -20,7 +20,7 @@ Phần mềm quản lý tuyển dụng giúp người dùng và ứng viên dễ
 ```
 Faker faker = new Faker();
 ```
-### Tạo ra từng fragments để gọi lại dễ dàng hơn mà không cần thiết kế lại 
+### Tạo ra từng thành phần fragments để gọi lại dễ dàng hơn mà không cần thiết kế lại từ đầu
 ![image](https://github.com/user-attachments/assets/84db7e19-e67c-4d79-bb09-d4ca516cca8e)
 ```
 - navbar.html: làm menu
