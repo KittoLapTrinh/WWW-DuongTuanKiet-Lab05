@@ -20,6 +20,14 @@ Phần mềm quản lý tuyển dụng giúp người dùng và ứng viên dễ
 ```
 Faker faker = new Faker();
 ```
+### Tạo ra từng fragments để gọi lại dễ dàng hơn mà không cần thiết kế lại 
+![image](https://github.com/user-attachments/assets/84db7e19-e67c-4d79-bb09-d4ca516cca8e)
+```
+- navbar.html: làm menu
+- footer.html: làm phần dưới
+- pagination: làm luồn phân trang
+```
+
 ### Chức năng của hệ thống
 ```
 CRUD
