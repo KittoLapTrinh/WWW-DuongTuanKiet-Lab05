@@ -11,7 +11,7 @@
 ![class-diaram](https://github.com/user-attachments/assets/db272479-c7a2-4a87-836d-afbd94367f0c)
 
 ### Database-diagram
-![database-diagram](https://github.com/user-attachments/assets/6d7dfb0d-4247-4d2b-8d92-a86e610abd5a)
+![database-diagram2](https://github.com/user-attachments/assets/106ef5cd-53cc-47d8-8a6e-70b51cb657ef)
 
 ### Chức năng của hệ thống
 ```
